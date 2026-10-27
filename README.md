@@ -1,50 +1,55 @@
 # PerfHUD
 
-Минималистичный HUD производительности для macOS **26+** (лучше всего на Apple Silicon).
-Показывает в плавающем поверх окон окне: **CPU · GPU · RAM · температуру · потребление (Вт) · график времени кадра** — и настраивается в отдельном окне.
+**A lightweight macOS desktop HUD for system performance and game frame-time monitoring.**
 
----
+## English
 
-## Возможности
+PerfHUD places live performance metrics in a compact, draggable desktop overlay with native SwiftUI Liquid Glass styling.
 
-- 🔲 Плавающий HUD поверх всех окон с настраиваемой прозрачностью и размером
-- 🖥 CPU / 🎮 GPU / 🧠 RAM — загрузка в реальном времени
-- 🌡 Температура датчиков Apple Silicon (приватный HID-интерфейс), °C / °F
-- ⚡ Потребление системы из SMC (ключ `PSTR`), Вт
-- 📈 График времени кадра (`displayLink`) — всплески показывают просадки/фризы
-- 🎨 Несколько цветовых схем + «авто» по нагрузке
-- 📋 Меню в строке меню: показать/скрыть, настройки, выход
-- 🚀 Автозапуск при входе в систему
-- 🖱 Перетаскивание окна, закрепление, click-through
+### Features
 
----
+- CPU model and manufacturer icon shown with CPU utilization, plus GPU utilization, memory use, Apple Silicon temperature, system power draw, and battery charge with estimated remaining time.
+- Game FPS and frame-time history, average FPS, 1% low, and average/maximum frame time.
+- Choose the FPS source: capture the foreground game window with ScreenCaptureKit, or use display-compositor cadence without Screen Recording permission.
+- Automatic game detection using the macOS Games category, Game Mode, Steam/Epic/GOG install paths, and Wine/CrossOver; add or exclude apps manually.
+- Customize overlay opacity, size, accent color (including automatic load-based color), and displayed metrics.
+- Choose window level, drag or lock its position, and enable click-through mode.
+- Configure refresh interval, launch at login, temperature units, and English/Ukrainian language.
+- Reduced idle polling and on-demand display-link sampling to lower background work.
 
-## Скриншоты
+### Requirements
 
-<img width="300" height="435" alt="image" src="https://github.com/user-attachments/assets/28c4cb98-19d8-417f-8d77-c6bb54944ce6" />
-<img width="280" height="300" alt="image" src="https://github.com/user-attachments/assets/f210e92c-e5a7-4d57-8ce5-7119a17ed44c" />
+- macOS 26 or later.
+- Apple Silicon recommended for temperature and power metrics.
+- Screen Recording permission is needed only for the foreground-game capture source. The display-cadence source does not require it.
 
+### Install
 
+Download `PerfHUD.app.zip` from [Releases](https://github.com/JzM1ckey/PerfHUD/releases), unzip it, and move `PerfHUD.app` to Applications. If macOS blocks the unsigned app, open it from Finder using Control-click → Open.
 
----
+## Українська
 
-## Системные требования
+**Легкий віджет для macOS із показниками системи та частоти кадрів в іграх.**
 
-- macOS 26.0+
-- Apple Silicon (температура и потребление работают только там; на Intel эти показатели будут «—»)
-- Xcode Command Line Tools для сборки
+PerfHUD показує поточні показники у компактному перетягуваному вікні з нативним оформленням SwiftUI Liquid Glass.
 
-## Сборка
+### Можливості
 
-Перетащите `PerfHUD.app` в папку «Программы» и запустите.
+- Модель процесора та значок виробника поруч із навантаженням CPU, а також навантаження GPU, використання пам’яті, температура Apple Silicon, споживання системної потужності та заряд батареї з орієнтовним часом роботи.
+- FPS і графік часу кадру в іграх, середній FPS, 1% low, середній і максимальний час кадру.
+- Вибір джерела FPS: захоплення вікна гри через ScreenCaptureKit або ритм композитора дисплея без дозволу на запис екрана.
+- Автоматичне визначення ігор за категорією macOS Games, Game Mode, шляхами Steam/Epic/GOG і Wine/CrossOver; застосунки можна додавати або виключати вручну.
+- Налаштування прозорості, розміру, кольору акценту (зокрема автоматичного за навантаженням) і набору показників.
+- Вибір рівня вікна, перетягування та фіксація позиції, режим проходження кліків крізь вікно.
+- Налаштування інтервалу оновлення, запуску під час входу, одиниць температури та мови English/Українська.
+- Менше фонових обчислень завдяки рідшому опитуванню в режимі очікування та запуску вимірювання дисплея лише за потреби.
 
----
+### Вимоги
 
-## Устройство
+- macOS 26 або новіша.
+- Для показників температури та потужності рекомендовано Apple Silicon.
+- Дозвіл «Запис екрана» потрібен лише для захоплення активного вікна гри. Джерело за ритмом дисплея його не потребує.
 
-- **CPU / GPU / RAM** — через `host_processor_info`, `IOAccelerator` и `host_statistics64`
-- **Температура** — приватный `IOHIDEventSystem` / датчики Apple Silicon (`PrimaryUsagePage 0xff00`)
-- **Потребление** — прямое чтение SMC-ключа `PSTR` (float) через `AppleSMC`
-- **Время кадра** — `NSScreen.displayLink` → `CADisplayLink`
+### Встановлення
 
-Приложение не вызывает приватных **API на уровне вызовов** Swift/ObjC, но обращается к приватным **системным сервисам** (HID, SMC). Это может быть нестабильно на будущих версиях macOS.
+Завантажте `PerfHUD.app.zip` зі сторінки [Releases](https://github.com/JzM1ckey/PerfHUD/releases), розпакуйте архів і перемістіть `PerfHUD.app` до Applications. Якщо macOS блокує непідписаний застосунок, відкрийте його у Finder через Control-click → Open.
