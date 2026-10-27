@@ -3,12 +3,9 @@
 Минималистичный HUD производительности для macOS **26+** (лучше всего на Apple Silicon).
 Показывает в плавающем поверх окон окне: **CPU · GPU · RAM · температуру · потребление (Вт) · график времени кадра** — и настраивается в отдельном окне.
 
-A minimal performance HUD for **macOS 26+** (best on Apple Silicon).
-A floating on-top window shows **CPU · GPU · RAM · temperature · power draw (W) · frame-time graph**, configurable through a separate window.
-
 ---
 
-## Возможности / Features
+## Возможности
 
 - 🔲 Плавающий HUD поверх всех окон с настраиваемой прозрачностью и размером
 - 🖥 CPU / 🎮 GPU / 🧠 RAM — загрузка в реальном времени
@@ -22,19 +19,19 @@ A floating on-top window shows **CPU · GPU · RAM · temperature · power draw 
 
 ---
 
-## Скриншоты / Screenshots
+## Скриншоты
 
 > _Добавьте сюда скриншоты HUD и окна настроек._
 
 ---
 
-## Системные требования / Requirements
+## Системные требования
 
 - macOS 26.0+
 - Apple Silicon (температура и потребление работают только там; на Intel эти показатели будут «—»)
 - Xcode Command Line Tools для сборки
 
-## Сборка / Build
+## Сборка
 
 ```bash
 bash build_app.sh
@@ -45,7 +42,7 @@ bash build_app.sh
 
 ---
 
-## Устройство / How it works
+## Устройство
 
 - **CPU / GPU / RAM** — через `host_processor_info`, `IOAccelerator` и `host_statistics64`
 - **Температура** — приватный `IOHIDEventSystem` / датчики Apple Silicon (`PrimaryUsagePage 0xff00`)
@@ -53,9 +50,3 @@ bash build_app.sh
 - **Время кадра** — `NSScreen.displayLink` → `CADisplayLink`
 
 Приложение не вызывает приватных **API на уровне вызовов** Swift/ObjC, но обращается к приватным **системным сервисам** (HID, SMC). Это может быть нестабильно на будущих версиях macOS.
-
----
-
-## Лицензия / License
-
-MIT © 2026 JzM1ckey
