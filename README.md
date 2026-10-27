@@ -2,6 +2,8 @@
 
 **A lightweight macOS desktop HUD for system performance and game frame-time monitoring.**
 
+[![Support PerfHUD](https://img.shields.io/badge/♥%20Support%20%2F%20Підтримати-Donate%20%2F%20Донат-ff5f5f?style=for-the-badge)](https://donatello.to/JzM1ckey)
+
 ## English
 
 PerfHUD places live performance metrics in a compact, draggable desktop overlay with native SwiftUI Liquid Glass styling.
