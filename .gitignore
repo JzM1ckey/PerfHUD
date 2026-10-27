@@ -1,0 +1,6 @@
+# Build output
+PerfHUD.app/
+*.zip
+
+# macOS
+.DS_Store
