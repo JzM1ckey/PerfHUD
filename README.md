@@ -21,7 +21,8 @@
 
 ## Скриншоты
 
-> _Добавьте сюда скриншоты HUD и окна настроек._
+<img width="239" height="238" alt="image" src="https://github.com/user-attachments/assets/f210e92c-e5a7-4d57-8ce5-7119a17ed44c" />
+
 
 ---
 
