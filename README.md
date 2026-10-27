@@ -36,11 +36,6 @@
 
 ## Сборка
 
-```bash
-bash build_app.sh
-```
-
-Скрипт компилирует `PerfHUD.swift` в `PerfHUD.app`, создаёт `Info.plist` и иконку, подписывает приложение (ad-hoc).
 Перетащите `PerfHUD.app` в папку «Программы» и запустите.
 
 ---
