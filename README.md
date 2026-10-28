@@ -29,6 +29,8 @@ PerfHUD places live performance metrics in a compact, draggable desktop overlay 
 
 Download `PerfHUD.zip` from [release v1.2.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.2.0) on the [Releases](https://github.com/JzM1ckey/PerfHUD/releases) page, unzip it, and move `PerfHUD.app` to Applications. If macOS blocks the unsigned app, open it from Finder using Control-click → Open.
 
+See [Changelog](CHANGELOG.md) for release history.
+
 ### License
 
 PerfHUD is distributed under the [MIT License](LICENSE).
@@ -59,6 +61,8 @@ PerfHUD показує поточні показники у компактном
 ### Встановлення
 
 Завантажте `PerfHUD.zip` із [релізу v1.2.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.2.0) на сторінці [Releases](https://github.com/JzM1ckey/PerfHUD/releases), розпакуйте архів і перемістіть `PerfHUD.app` до Applications. Якщо macOS блокує непідписаний застосунок, відкрийте його у Finder через Control-click → Open.
+
+Історія змін — у [Changelog](CHANGELOG.md).
 
 ### Ліцензія
 

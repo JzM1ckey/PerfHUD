@@ -4,3 +4,7 @@ PerfHUD.app/
 
 # macOS
 .DS_Store
+
+# Local development sources
+PerfHUD.swift
+build_app.sh

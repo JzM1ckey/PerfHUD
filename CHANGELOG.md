@@ -1,6 +1,19 @@
-# PerfHUD 1.1
+# Changelog
 
-## English
+
+## 1.2
+
+### English
+
+- Added a startup animation.
+
+### Українська
+
+- Додано анімацію запуску застосунку.
+
+## 1.1
+
+### English
 
 - Added CPU, GPU, memory, Apple Silicon temperature, system power, and battery charge/estimated time metrics.
 - Added the CPU model and manufacturer icon to the CPU row.
@@ -13,7 +26,7 @@
 
 Requires macOS 26 or later. Screen Recording permission is needed only for foreground game capture.
 
-## Українська
+### Українська
 
 - Додано показники CPU, GPU, пам’яті, температури Apple Silicon, системної потужності та заряду батареї з орієнтовним часом роботи.
 - У рядку CPU показуються модель процесора та значок виробника.
