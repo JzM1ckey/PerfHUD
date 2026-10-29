@@ -5,14 +5,12 @@
 ### English
 
 - Moved rolling minimum and maximum FPS to a compact secondary line below the current FPS.
-- Set the default HUD size to 100% (the previous 110% appearance) and expanded the size range to 50–150%.
 - Refined the Settings controls with a restrained native glass appearance.
 - Bug fixes and stability improvements.
 
 ### Українська
 
 - Перенесено мінімальний і максимальний FPS у компактний додатковий рядок під поточним FPS.
-- Встановлено типовий розмір HUD 100% (попередній вигляд 110%); діапазон змінено на 50–150%.
 - Оновлено елементи налаштувань у стриманому нативному стилі Liquid Glass.
 - Виправлення помилок і підвищення стабільності.
 
