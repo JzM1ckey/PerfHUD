@@ -6,7 +6,7 @@
 
 - Refreshed the settings experience with four native toolbar panes and a live HUD preview.
 - Improved HUD readability and appearance controls, including separately adjustable glass-background opacity.
-- Kept power draw visible; battery charge is always shown, with charging status and remaining-time details on a secondary line.
+- Kept power draw visible; battery charge is always shown, with a power-connection indicator and remaining-time details on a secondary line.
 - Added default exclusions for launchers and helper processes, plus a clearer game-management view.
 - Added app-menu settings and quit commands with standard keyboard shortcuts.
 - Added a quick HUD-lock toggle to the menu bar extra.
@@ -18,7 +18,7 @@
 
 - Оновлено дизайн налаштувань: чотири нативні вкладки на панелі інструментів і живий попередній перегляд HUD.
 - Покращено читабельність HUD і налаштування вигляду, зокрема окреме регулювання прозорості скляного тла.
-- Потужність залишається видимою; відсоток заряду показується завжди, а індикатор заряджання й орієнтовний час — додатковим рядком.
+- Потужність залишається видимою; відсоток заряду показується завжди, а індикатор під’єднаного живлення й орієнтовний час — додатковим рядком.
 - Додано стандартні виключення для лаунчерів і службових процесів та зрозуміліший список ігор.
 - Додано команди налаштувань і виходу в меню застосунку зі стандартними клавіатурними скороченнями.
 - Додано швидкий перемикач фіксації HUD у меню значка в рядку меню.
