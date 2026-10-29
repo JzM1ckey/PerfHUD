@@ -10,7 +10,7 @@
 - Added default exclusions for launchers and helper processes, plus a clearer game-management view.
 - Added app-menu settings and quit commands with standard keyboard shortcuts.
 - Combined HUD locking and click-through behavior into one control: when locked, the HUD cannot be dragged and pointer clicks pass through it.
-- Stabilized the HUD opening animation by keeping the power row height constant while battery details load.
+- Bug fixes and stability improvements.
 
 ### Українська
 
@@ -20,7 +20,7 @@
 - Додано стандартні виключення для лаунчерів і службових процесів та зрозуміліший список ігор.
 - Додано команди налаштувань і виходу в меню застосунку зі стандартними клавіатурними скороченнями.
 - Об’єднано фіксацію HUD і проходження кліків в один перемикач: у зафіксованому режимі HUD не перетягується та пропускає кліки наскрізь.
-- Стабілізовано анімацію появи HUD: висота рядка потужності не змінюється під час завантаження даних батареї.
+- Виправлення помилок і підвищення стабільності.
 
 
 ## 1.2
