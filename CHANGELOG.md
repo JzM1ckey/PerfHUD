@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.5
+
+### English
+
+- Fixed clipped minimum and maximum FPS readings in the HUD when displaying long game names.
+
+### Українська
+
+- Виправлено обрізання мінімального й максимального FPS у HUD за довгої назви гри.
+
 ## 1.4
 
 ### English
