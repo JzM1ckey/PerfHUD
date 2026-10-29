@@ -15,7 +15,7 @@ PerfHUD places live performance metrics in a compact, draggable desktop overlay 
 - Choose the FPS source: capture the foreground game window with ScreenCaptureKit, or use display-compositor cadence without Screen Recording permission.
 - Automatic game detection using the macOS Games category, Game Mode, Steam/Epic/GOG install paths, and Wine/CrossOver; add or exclude apps manually.
 - Customize overlay opacity, size, accent color (including automatic load-based color), and displayed metrics.
-- Choose window level, drag or lock its position, and enable click-through mode.
+- Choose window level; in locked mode, prevent dragging and let pointer clicks pass through the HUD.
 - Configure refresh interval, launch at login, temperature units, and English/Ukrainian language.
 - Reduced idle polling and on-demand display-link sampling to lower background work.
 
@@ -27,7 +27,7 @@ PerfHUD places live performance metrics in a compact, draggable desktop overlay 
 
 ### Install
 
-Download `PerfHUD.zip` from [release v1.2.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.2.0) on the [Releases](https://github.com/JzM1ckey/PerfHUD/releases) page, unzip it, and move `PerfHUD.app` to Applications. If macOS blocks the unsigned app, open it from Finder using Control-click → Open.
+Download `PerfHUD.zip` from [release v1.3.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.3.0) on the [Releases](https://github.com/JzM1ckey/PerfHUD/releases) page, unzip it, and move `PerfHUD.app` to Applications. If macOS blocks the unsigned app, open it from Finder using Control-click → Open.
 
 See [Changelog](CHANGELOG.md) for release history.
 
@@ -48,7 +48,7 @@ PerfHUD показує поточні показники у компактном
 - Вибір джерела FPS: захоплення вікна гри через ScreenCaptureKit або ритм композитора дисплея без дозволу на запис екрана.
 - Автоматичне визначення ігор за категорією macOS Games, Game Mode, шляхами Steam/Epic/GOG і Wine/CrossOver; застосунки можна додавати або виключати вручну.
 - Налаштування прозорості, розміру, кольору акценту (зокрема автоматичного за навантаженням) і набору показників.
-- Вибір рівня вікна, перетягування та фіксація позиції, режим проходження кліків крізь вікно.
+- Вибір рівня вікна; у зафіксованому режимі HUD не перетягується та пропускає кліки наскрізь.
 - Налаштування інтервалу оновлення, запуску під час входу, одиниць температури та мови English/Українська.
 - Менше фонових обчислень завдяки рідшому опитуванню в режимі очікування та запуску вимірювання дисплея лише за потреби.
 
@@ -60,7 +60,7 @@ PerfHUD показує поточні показники у компактном
 
 ### Встановлення
 
-Завантажте `PerfHUD.zip` із [релізу v1.2.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.2.0) на сторінці [Releases](https://github.com/JzM1ckey/PerfHUD/releases), розпакуйте архів і перемістіть `PerfHUD.app` до Applications. Якщо macOS блокує непідписаний застосунок, відкрийте його у Finder через Control-click → Open.
+Завантажте `PerfHUD.zip` із [релізу v1.3.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.3.0) на сторінці [Releases](https://github.com/JzM1ckey/PerfHUD/releases), розпакуйте архів і перемістіть `PerfHUD.app` до Applications. Якщо macOS блокує непідписаний застосунок, відкрийте його у Finder через Control-click → Open.
 
 Історія змін — у [Changelog](CHANGELOG.md).
 

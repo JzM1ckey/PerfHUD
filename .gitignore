@@ -7,4 +7,5 @@ PerfHUD.app/
 
 # Local development sources
 PerfHUD.swift
+PerfHUD.backup-*.swift
 build_app.sh

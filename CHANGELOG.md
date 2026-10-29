@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.3.0
+
+### English
+
+- Refreshed the settings experience with four native toolbar panes and a live HUD preview.
+- Improved HUD readability and appearance controls, including separately adjustable glass-background opacity.
+- Kept power draw visible by moving battery charge and estimated time to a secondary line.
+- Added default exclusions for launchers and helper processes, plus a clearer game-management view.
+- Added app-menu settings and quit commands with standard keyboard shortcuts.
+- Combined HUD locking and click-through behavior into one control: when locked, the HUD cannot be dragged and pointer clicks pass through it.
+
+### Українська
+
+- Оновлено дизайн налаштувань: чотири нативні вкладки на панелі інструментів і живий попередній перегляд HUD.
+- Покращено читабельність HUD і налаштування вигляду, зокрема окреме регулювання прозорості скляного тла.
+- Потужність завжди залишається видимою: заряд батареї та орієнтовний час перенесено в додатковий рядок.
+- Додано стандартні виключення для лаунчерів і службових процесів та зрозуміліший список ігор.
+- Додано команди налаштувань і виходу в меню застосунку зі стандартними клавіатурними скороченнями.
+- Об’єднано фіксацію HUD і проходження кліків в один перемикач: у зафіксованому режимі HUD не перетягується та пропускає кліки наскрізь.
+
 
 ## 1.2
 
