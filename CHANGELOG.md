@@ -9,6 +9,7 @@
 - Kept power draw visible by moving battery charge and estimated time to a secondary line.
 - Added default exclusions for launchers and helper processes, plus a clearer game-management view.
 - Added app-menu settings and quit commands with standard keyboard shortcuts.
+- Added a quick HUD-lock toggle to the menu bar extra.
 - Combined HUD locking and click-through behavior into one control: when locked, the HUD cannot be dragged and pointer clicks pass through it.
 - Bug fixes and stability improvements.
 
@@ -19,6 +20,7 @@
 - Потужність завжди залишається видимою: заряд батареї та орієнтовний час перенесено в додатковий рядок.
 - Додано стандартні виключення для лаунчерів і службових процесів та зрозуміліший список ігор.
 - Додано команди налаштувань і виходу в меню застосунку зі стандартними клавіатурними скороченнями.
+- Додано швидкий перемикач фіксації HUD у меню значка в рядку меню.
 - Об’єднано фіксацію HUD і проходження кліків в один перемикач: у зафіксованому режимі HUD не перетягується та пропускає кліки наскрізь.
 - Виправлення помилок і підвищення стабільності.
 
