@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.4
+
+### English
+
+- Moved rolling minimum and maximum FPS to a compact secondary line below the current FPS.
+- Bug fixes and stability improvements.
+
+### Українська
+
+- Перенесено мінімальний і максимальний FPS у компактний додатковий рядок під поточним FPS.
+- Виправлення помилок і підвищення стабільності.
+
 ## 1.3
 
 ### English
