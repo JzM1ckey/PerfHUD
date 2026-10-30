@@ -5,12 +5,12 @@
 ### English
 
 - Swap usage is now added to the memory used figure in the RAM row (for example “9.8+0.8 / 16.0 GB”), and the load bar reflects the combined value.
-- Added a “Memory and swap” setting to show swap as a separate addend or as a single combined total.
+- Added a “Memory and swap” setting to show swap as a separate addend or as a single combined total (the combined total is shown by default).
 
 ### Українська
 
 - Обсяг використаного swap тепер додається до зайнятої пам’яті в рядку RAM (наприклад, «9.8+0.8 / 16.0 GB»), а смуга показує сумарне значення.
-- Додано налаштування «Пам’ять зі свопом»: своп показується окремим доданком або одразу сумою.
+- Додано налаштування «Пам’ять зі свопом»: своп показується окремим доданком або одразу сумою (типово — сума).
 
 ## 1.5
 
