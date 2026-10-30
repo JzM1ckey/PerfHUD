@@ -11,10 +11,10 @@ PerfHUD places live performance metrics in a compact, draggable desktop overlay 
 ### Features
 
 - CPU model and manufacturer icon shown with CPU utilization, plus GPU utilization, memory use, Apple Silicon temperature, system power draw, and battery charge with estimated remaining time.
-- Game FPS and frame-time history, average FPS, 1% low, and average/maximum frame time.
+- Game FPS and frame-time history, average FPS, rolling 10-second minimum/maximum FPS, 1% low, and average/maximum frame time. Long game names truncate before FPS readings.
 - Choose the FPS source: capture the foreground game window with ScreenCaptureKit, or use display-compositor cadence without Screen Recording permission.
 - Automatic game detection using the macOS Games category, Game Mode, Steam/Epic/GOG install paths, and Wine/CrossOver; add or exclude apps manually.
-- Customize overlay opacity, size, accent color (including automatic load-based color), and displayed metrics.
+- Customize overlay opacity, size (50–150%, with 100% as the default), accent color (including automatic load-based color), and displayed metrics.
 - Choose window level; in locked mode, prevent dragging and let pointer clicks pass through the HUD.
 - Configure refresh interval, launch at login, temperature units, and English/Ukrainian language.
 - Reduced idle polling and on-demand display-link sampling to lower background work.
@@ -27,7 +27,7 @@ PerfHUD places live performance metrics in a compact, draggable desktop overlay 
 
 ### Install
 
-Download `PerfHUD.zip` from [release v1.3.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.3.0) on the [Releases](https://github.com/JzM1ckey/PerfHUD/releases) page, unzip it, and move `PerfHUD.app` to Applications. If macOS blocks the unsigned app, open it from Finder using Control-click → Open.
+Download `PerfHUD-1.5.zip` from [release v1.5.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.5.0) on the [Releases](https://github.com/JzM1ckey/PerfHUD/releases) page, unzip it, and move `PerfHUD.app` to Applications. If macOS blocks the app, open it from Finder using Control-click → Open.
 
 See [Changelog](CHANGELOG.md) for release history.
 
@@ -44,10 +44,10 @@ PerfHUD показує поточні показники у компактном
 ### Можливості
 
 - Модель процесора та значок виробника поруч із навантаженням CPU, а також навантаження GPU, використання пам’яті, температура Apple Silicon, споживання системної потужності та заряд батареї з орієнтовним часом роботи.
-- FPS і графік часу кадру в іграх, середній FPS, 1% low, середній і максимальний час кадру.
+- FPS і графік часу кадру в іграх, середній FPS, мінімальний/максимальний FPS за останні 10 секунд, 1% low, середній і максимальний час кадру. Довга назва гри скорочується, щоб показники FPS залишалися видимими.
 - Вибір джерела FPS: захоплення вікна гри через ScreenCaptureKit або ритм композитора дисплея без дозволу на запис екрана.
 - Автоматичне визначення ігор за категорією macOS Games, Game Mode, шляхами Steam/Epic/GOG і Wine/CrossOver; застосунки можна додавати або виключати вручну.
-- Налаштування прозорості, розміру, кольору акценту (зокрема автоматичного за навантаженням) і набору показників.
+- Налаштування прозорості, розміру (50–150%, типовий — 100%), кольору акценту (зокрема автоматичного за навантаженням) і набору показників.
 - Вибір рівня вікна; у зафіксованому режимі HUD не перетягується та пропускає кліки наскрізь.
 - Налаштування інтервалу оновлення, запуску під час входу, одиниць температури та мови English/Українська.
 - Менше фонових обчислень завдяки рідшому опитуванню в режимі очікування та запуску вимірювання дисплея лише за потреби.
@@ -60,7 +60,7 @@ PerfHUD показує поточні показники у компактном
 
 ### Встановлення
 
-Завантажте `PerfHUD.zip` із [релізу v1.3.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.3.0) на сторінці [Releases](https://github.com/JzM1ckey/PerfHUD/releases), розпакуйте архів і перемістіть `PerfHUD.app` до Applications. Якщо macOS блокує непідписаний застосунок, відкрийте його у Finder через Control-click → Open.
+Завантажте `PerfHUD-1.5.zip` із [релізу v1.5.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.5.0) на сторінці [Releases](https://github.com/JzM1ckey/PerfHUD/releases), розпакуйте архів і перемістіть `PerfHUD.app` до Applications. Якщо macOS блокує застосунок, відкрийте його у Finder через Control-click → Open.
 
 Історія змін — у [Changelog](CHANGELOG.md).
 
