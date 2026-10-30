@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.6
+
+### English
+
+- Swap usage is now added to the memory used figure in the RAM row (for example “9.8+0.8 / 16.0 GB”), and the load bar reflects the combined value.
+
+### Українська
+
+- Обсяг використаного swap тепер додається до зайнятої пам’яті в рядку RAM (наприклад, «9.8+0.8 / 16.0 GB»), а смуга показує сумарне значення.
+
 ## 1.5
 
 ### English
