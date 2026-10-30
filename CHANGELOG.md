@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.7
+
+### English
+
+- Redesigned all four Settings panes in the Liquid Glass Studio style, keeping the top tab switcher.
+- Settings switches now follow the macOS accent color; restored the translucent background behind the toolbar.
+- Added a settings-aware HUD preview to both Metrics and Appearance, with more room in the Settings window.
+- Redesigned opacity and size sliders with range labels and editable, validated percentages. Default HUD background opacity is now 100%; saved preferences are preserved.
+- Aligned the memory display-mode picker with the RAM switch at the trailing edge of its settings group.
+- Added a nested running-app submenu alongside application-file selection when adding games.
+- Reorganized behavior settings, added Screen Recording permission status and source-specific guidance, and made default game exclusions collapsible.
+
+### Українська
+
+- Повністю оновлено чотири вкладки налаштувань у стилі Liquid Glass Studio зі збереженням верхнього перемикача вкладок.
+- Перемикачі налаштувань тепер використовують акцентний колір macOS; відновлено напівпрозоре тло за панеллю інструментів.
+- Додано перегляд HUD за поточними налаштуваннями у «Показниках» і «Зовнішньому вигляді» та збільшено простір вікна налаштувань.
+- Оновлено повзунки непрозорості й розміру: підписи меж і редаговані відсотки з перевіркою значень. Типова непрозорість тла HUD — 100%; збережені параметри не перезаписуються.
+- Вирівняно список режимів відображення пам’яті по правому краю групи, під перемикачем RAM.
+- Під час додавання ігор можна вибрати файл застосунку або програму із вкладеного меню запущених застосунків.
+- Перегруповано налаштування поведінки, додано стан дозволу запису екрана та пояснення для джерел FPS; стандартні виключення ігор можна згортати.
+
 ## 1.6
 
 ### English
