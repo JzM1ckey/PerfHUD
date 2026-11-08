@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.8 (34)
+
+### English
+
+- Restored smooth 20 Hz frame-time graph updates while keeping every captured frame in the FPS statistics.
+- Reduced graph overhead with reusable Core Animation layers and separate updates for the graph and FPS text.
+- Building the app no longer launches an additional copy automatically.
+
+### Українська
+
+- Плавний графік часу кадру з оновленням 20 разів на секунду. Статистика FPS враховує кожен отриманий кадр.
+- Зменшено навантаження графіка завдяки повторному використанню шарів Core Animation та окремим оновленням графіка й числових показників FPS.
+- Після складання застосунок більше не запускає додаткову копію автоматично.
+
 ## 1.8 (32)
 
 ### English

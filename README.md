@@ -7,7 +7,7 @@
 <p align="center">Live system metrics, game FPS, and frame times in a compact macOS overlay.</p>
 
 <p align="center">
-  <a href="https://github.com/JzM1ckey/PerfHUD/releases/download/v1.8.0/PerfHUD-1.8.zip"><strong>Download PerfHUD 1.8 · Завантажити</strong></a>
+  <a href="https://github.com/JzM1ckey/PerfHUD/releases/download/v1.8.0/PerfHUD-1.8.zip"><strong>Download PerfHUD 1.8 (34) · Завантажити</strong></a>
   · <a href="#english">English</a>
   · <a href="#українська">Українська</a>
 </p>
