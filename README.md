@@ -1,6 +1,16 @@
-# PerfHUD
+<p align="center">
+  <img src="Assets/PerfHUD.png" width="128" height="128" alt="PerfHUD — violet HUD panels">
+</p>
 
-**A lightweight macOS desktop HUD for system performance and game frame-time monitoring.**
+<h1 align="center">PerfHUD</h1>
+
+<p align="center">Live system metrics, game FPS, and frame times in a compact macOS overlay.</p>
+
+<p align="center">
+  <a href="https://github.com/JzM1ckey/PerfHUD/releases/download/v1.8.0/PerfHUD-1.8.zip"><strong>Download PerfHUD 1.8 · Завантажити</strong></a>
+  · <a href="#english">English</a>
+  · <a href="#українська">Українська</a>
+</p>
 
 [![Support PerfHUD](https://img.shields.io/badge/♥%20Support%20%2F%20Підтримати-Donate%20%2F%20Донат-ff5f5f?style=for-the-badge)](https://donatello.to/JzM1ckey)
 
