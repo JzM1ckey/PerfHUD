@@ -10,7 +10,8 @@ PerfHUD places live performance metrics in a compact, draggable desktop overlay 
 
 ### Features
 
-- Live CPU, GPU, memory, swap, temperature, power, and battery metrics.
+- Live CPU, GPU, memory, swap, power, and battery metrics.
+- Maximum CPU sensor temperature using generation-specific M1–M6 sensor maps (including Pro, Max, and Ultra), with fan speeds in RPM.
 - Game FPS, rolling 10-second min/max, 1% low, and frame-time graph and stats.
 - Automatic game detection or manual app lists; FPS from the game window or display.
 - HUD controls for size, opacity, color, metrics, and window behavior.
@@ -25,7 +26,7 @@ PerfHUD places live performance metrics in a compact, draggable desktop overlay 
 
 ### Install
 
-Download `PerfHUD-1.7.zip` from [release v1.7.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.7.0) on the [Releases](https://github.com/JzM1ckey/PerfHUD/releases) page, unzip it, and move `PerfHUD.app` to Applications. If macOS blocks the app, open it from Finder using Control-click → Open.
+Download `PerfHUD-1.8.zip` from [release v1.8.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.8.0) on the [Releases](https://github.com/JzM1ckey/PerfHUD/releases) page, unzip it, and move `PerfHUD.app` to Applications. If macOS blocks the app, open it from Finder using Control-click → Open.
 
 See [Changelog](CHANGELOG.md) for release history.
 
@@ -41,7 +42,8 @@ PerfHUD показує поточні показники у компактном
 
 ### Можливості
 
-- Показники CPU, GPU, пам’яті, swap, температури, потужності та батареї.
+- Показники CPU, GPU, пам’яті, swap, потужності та батареї.
+- Максимальна температура серед датчиків CPU за окремими картами M1–M6 (включно з Pro, Max та Ultra) та оберти вентиляторів у RPM.
 - Ігровий FPS, мін./макс. за останні 10 секунд, 1% low і графік часу кадру.
 - Автовизначення ігор або власний список; FPS із вікна гри чи дисплея.
 - Налаштування розміру, прозорості, кольору, показників і поведінки HUD.
@@ -56,7 +58,7 @@ PerfHUD показує поточні показники у компактном
 
 ### Встановлення
 
-Завантажте `PerfHUD-1.7.zip` із [релізу v1.7.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.7.0) на сторінці [Releases](https://github.com/JzM1ckey/PerfHUD/releases), розпакуйте архів і перемістіть `PerfHUD.app` до Applications. Якщо macOS блокує застосунок, відкрийте його у Finder через Control-click → Open.
+Завантажте `PerfHUD-1.8.zip` із [релізу v1.8.0](https://github.com/JzM1ckey/PerfHUD/releases/tag/v1.8.0) на сторінці [Releases](https://github.com/JzM1ckey/PerfHUD/releases), розпакуйте архів і перемістіть `PerfHUD.app` до Applications. Якщо macOS блокує застосунок, відкрийте його у Finder через Control-click → Open.
 
 Історія змін — у [Changelog](CHANGELOG.md).
 

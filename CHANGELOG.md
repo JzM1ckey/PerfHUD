@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.8 (32)
+
+### English
+
+- TEMP shows the hottest available CPU sensor for the detected M1–M6 generation, with each fan’s speed in RPM underneath.
+- The FPS graph redraws four times per second while statistics still use every captured frame. Disabling the FPS row stops capture.
+- Local builds can reuse a signing certificate so macOS can remember Screen Recording permission across updates.
+
+### Українська
+
+- TEMP показує найвищу температуру серед доступних датчиків CPU для відповідного покоління M1–M6. Під температурою видно оберти кожного вентилятора.
+- Графік FPS оновлюється чотири рази на секунду, а статистика враховує кожен отриманий кадр. Вимкнення рядка FPS зупиняє захоплення.
+- Локальні збірки можна підписувати тим самим сертифікатом, щоб macOS зберігала дозвіл на запис екрана між оновленнями.
+
 ## 1.7
 
 ### English
